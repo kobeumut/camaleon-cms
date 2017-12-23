@@ -1,6 +1,21 @@
 # encoding: utf-8
+tr:
+  languages:
+    tr: "Türkçe"
+    es: "İspanyolca"
+    en: "İngilizce"
+    fr: "Fransızca"
+    zh-CN: "Çince"
+    de: "Almanca"
+    pt: "Portekizce"
+    pt-BR: "Portekizce (Brasilien)"
+    it: "İtalyanca"
+    ru: "Rusça"
+    nl: "Flemenkçe"
+
 de:
   languages:
+    tr: "Turkish"
     es: "Spanisch"
     en: "Englisch"
     fr: "Französisch"
@@ -14,6 +29,7 @@ de:
 
 en:
   languages:
+    tr: "Turkish"
     es: "Spanish"
     en: "English"
     fr: "French"
@@ -27,6 +43,7 @@ en:
 
 es:
   languages:
+    tr: "Turkish"
     es: "Español"
     en: "Inglés"
     fr: "Francés"
@@ -40,6 +57,7 @@ es:
 
 it:
   languages:
+    tr: "Turkish"
     es: "Spagnolo"
     en: "Inglese"
     fr: "Francese"
@@ -53,6 +71,7 @@ it:
 
 ru:
   languages:
+    tr: "Turkish"
     es: "Испанский"
     en: "Английский"
     fr: "Французский"
@@ -66,6 +85,7 @@ ru:
 
 nl:
   languages:
+    tr: "Turkish"
     es: "Spaans"
     en: "Engels"
     fr: "Frans"
@@ -79,6 +99,7 @@ nl:
 
 pt:
   languages:
+    tr: "Turkish"
     es: "Espanhol"
     en: "Inglês"
     fr: "Francês"
@@ -92,6 +113,7 @@ pt:
 
 pt-BR:
   languages:
+    tr: "Turkish"
     es: "Espanhol"
     en: "Inglês"
     fr: "Francês"
@@ -104,7 +126,8 @@ pt-BR:
     nl: "Holandês"
 
 zh-CN:
-  languages: 
+  languages:
+    tr: "Turkish"
     es: "西班牙语"
     en: "英语"
     fr: "法语"
