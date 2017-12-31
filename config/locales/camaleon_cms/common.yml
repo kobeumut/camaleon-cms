@@ -1,6 +1,72 @@
 # encoding: utf-8
 # this is used for common translations plugin
 # note: doesn't support multi level
+tr:
+  camaleon_cms:
+    common:
+      profile: "Profil"
+      dashboard: "Yönetim Paneli"
+      read_more: "Devamı"
+      submit: "Gönder"
+      send: "Gönder"
+      login: "Giriş Yap"
+      logout: "Çıkış Yap"
+      confirm: "Emin misin"
+      register: "Kayıt"
+      proceted_article: 'Korumalı Makale'
+
+      comment_msg: "Yorum yapabilmek için önce giriş yapılması gerekmektedir"
+      comment: "Yorum"
+      comments: "Yorumlar"
+      message: "Mesaj"
+      leave_comment: "Yorum bırakın"
+      comment_new: "Yeni Yorum"
+      comment_saved: "Yorumunuz kaydedildi"
+      comment_error: "Yorum kaydedilirken bir sorun oluştu"
+      comment_reply: "Yanıtla"
+      edit: "Düzenle"
+
+      recent_posts: "Son Eklenenler"
+
+
+      search_msg: "Arama sonuçları:"
+      search_not_found: "Listede aranan kelimeler bulunamadı"
+      category_list: "Kategori Listesi"
+      post_tag_list: "Etiket Listesi"
+      sub_category_list: "Alt Kategoriler"
+      content_list: "İçerik Listesi: %s"
+      visit: "Ziyaret et"
+      no_contents_found: "İçerik bulunamadı"
+      no_results_found: "Sonuç bulunamadı"
+
+      author: "Yazar"
+      site: "Site"
+      categories: "Kategoriler"
+      next: "Sonraki"
+      prev: "Önceki"
+      current: "Şimdiki"
+      search: "Arama"
+      file_format_error: "Dosya formatına izin verilmiyor"
+      file_size_exceeded: "Dosya boyutu çok büyük"
+
+      notice: "Haberler "
+      share: "Paylaş"
+      share_facebook: "Facebook'ta Paylaş"
+      share_twitter: "Twitter'da Paylaş"
+      share_google_plus: "Google Plus'ta Paylaş"
+      back_top: "Yukarı Çık"
+      total_followers_social: "Sosyal Ağ'daki Takipçi Sayısı"
+      latest_articles: "Son Eklenenler"
+      photo_gallery: "Resim Galerisi"
+      home_galleries: "Galeri sayfasına dön"
+      addition: "Eklentiler"
+      view_all_news: "Tüm Haberleri Göster"
+      extra_attributes: "Ekstra Özellikler"
+
+  will_paginate:
+    previous_label: 'Önceki'
+    next_label: 'Sonraki'
+
 de:
   camaleon_cms:
     common:

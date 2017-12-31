@@ -1,0 +1,682 @@
+tr:
+  camaleon_cms:
+    see_intro: "Eğitimi Göster"
+    welcome_message: "Yönetim Paneline Hoşgeldiniz"
+    page_not_exist: "<h1>ooops...</h1><h5>Aradığınız sayfa bulunamadı.</h5>"
+    page_error_500: "<h1>ooops...</h1><h5>Hata: 500 Internal Server Error. Lütfen hosting yöneticiniz ile görüşün.</h5>"
+    admin:
+      request_error_message: "Bir hata meydana geldi, lütfen hosting yöneticiniz ile görüşün."
+      authorization_error: "Bu bölüm için yetkiniz yok."
+      header:
+        member_since: "%{time} tarihinden itibaren üye"
+      button:
+        activity: Aktivite
+        add_new_field: "Yeni alan ekle"
+        add_option: "Seçenek ekle"
+        add_menu: "Menüye Ekle"
+        add_widget: "Bileşen Ekle"
+        accept: "Kabul Et"
+        add_folder: "Klasör Ekle"
+        actived: "Aktive edildi"
+        activate_plugin: "Eklentiyi etkinleştir"
+        back: Geri
+        change_photo: "Resmi değiştir"
+        change_password: "Şifre Değiştir"
+        create_menu: 'Menü Oluştur'
+        create: 'Oluştur'
+        cancel: 'İptal'
+        chat: 'Chat'
+        close: 'Kapat'
+        delete: 'Sil'
+        disable_plugin: 'Eklentiyi pasif yap'
+        enter: 'Gir'
+        edit: 'Düzenle'
+        new: 'Yeni'
+        following: 'Takip Ediliyor'
+        log_in: 'Giriş Yap'
+        move_trash: 'Çöpe Gönder'
+        no: 'Hayır'
+        none: 'Hiçbiri'
+        not_actived: 'Aktif Değil'
+        publish: 'Yayınla'
+        preview: 'Önizle'
+        proccess: 'İşlem'
+        recover: 'Kurtar'
+        restore: 'Geri Yükle'
+        restore_selections: 'Seçimleri Geri Yükle'
+        delete_complete: "Tümüyle sil"
+        select: 'Seç'
+        select_all: 'Hepsini seç'
+        select_file: 'Dosya Seç'
+        select_none: 'Hiçbirini Seçme'
+        sign_up: 'Kayıt Ol'
+        submit: 'Gönder'
+        settings: 'Ayarlar'
+        sortable: 'Sıralama'
+        update: 'Güncelle'
+        update_menu: 'Menü Güncelle'
+        upload_audio: 'Ses Yükle'
+        upload_file: 'Dosya Yükle'
+        upload_image: 'Resim Yükle'
+        upload_icon: 'İkon Yükle'
+        upload_video: 'Video Yükle'
+        drag_drop: 'Sürükle-bırak dosyaları'
+        view_draft: 'Taslak Görüntüle'
+        view_page: 'Sayfa Görüntüle'
+        yes: 'Evet'
+        out_yes: 'Evet'
+        out_not: 'Hayır'
+        domain: "Domain"
+        search: "Arama"
+
+      comments:
+        new_msg: "İçerik için Yeni Yorum"
+        comments_list_post: 'Gönderi Yorumlarını Listele'
+        responses: 'Yanıtlar'
+        message:
+          approved: 'Onaylı'
+          change_status: 'Yanıt Durumu değiştirildi: '
+          created: 'Yorum oluşturuldu.'
+          destroy: 'Cevaplar silindi.'
+          destroy_comments: 'Yorumlar kaldırıldı.'
+          deleted: 'Yanıtlar kaldırıldı.'
+          error: 'Yorum bulunamadı'
+          pending: 'Beklemede'
+          responses: 'Yanıt oluşturuldu.'
+          spam: 'İstenmeyen'
+          there_no_comments: 'Yorum bulunmuyor.'
+          updated: 'Yorum güncellendi.'
+
+        tooltip:
+          approved_comment: 'Yorumu Onayla'
+          comment_pending: 'Yorumu Beklemeye Al'
+          comment_spam: 'İstenmeyen Yorum'
+          reply_comment: 'Yorumu Yanıtla'
+          delete_comment: 'Yorumu Sil'
+      custom_field:
+        message:
+          custom_group_error: 'Özel alan grubunda hata'
+          custom_created: 'Özel alan grubu oluşturuldu.'
+          custom_updated: 'Özel alan gurubu güncellendi.'
+        fields:
+          text_box: 'Metin Kutusu'
+          text_area: 'Metin Alanı'
+          select: 'Seç'
+          colorpicker: 'Renk Seçici'
+          date: 'Tarih'
+          email: 'Email'
+          file: 'Dosya'
+          image: 'Resim'
+          image_dimension: 'Boyut'
+          image_dimension_descr: 'Görüntüyü belirtilen boyutla kırpın (genişlik*uzunluk), Örn: 400x300 <br>Olası Değerler: 400x300 | 400x | x300 | ?400x?500 | ?1400x (? => maximum, empty => auto)'
+          image_versions: 'Versiyonlar'
+          image_versions_descr: "Yüklenen resmin ek birden fazla sürümünü oluşturun, Örn: 300x300,505x350 ==> Bu boyutlara sahip iki ilave görüntü oluşturacak"
+          image_thumb: 'Önizleme Resmi'
+          required_image_thumb: 'Önizleme Resmine ihtiyaç var mı?'
+          image_thumb_descr: "Önizleme resmi için boyut belirle, Örn: 100x100. Varsayılan: %{d}"
+          numeric: 'Sayısal'
+          phone: 'Telefon'
+          users: 'Kullanıcılar'
+          posts: 'Gönderiler'
+          select_eval: 'Değerleri seçin'
+          field_attrs: 'Alan Özellikleri'
+          website: 'Website'
+          multiple_choice: 'Radio Butonu'
+
+
+      login:
+        already_have_account: 'Zaten Hesabınız Var mı?'
+        authentication: 'Doğrulama'
+        captcha: 'Resim Doğrulama'
+        create_account: 'Hesap oluştur'
+        login: 'Giriş'
+        forgot_your_password_int: 'Şifremi unuttum?'
+        message:
+          success: 'Hoşgeldiniz!!!'
+          fail: 'Kullanıcı veya şifre yanlış'
+          forgot_url_incorrect: 'URL hatalı'
+          forgot_expired: 'Yenileme süresi bitti.'
+          hello: 'Merhaba'
+          reset_password_succes: 'Şifre yenileme başarılı!'
+          reset_password_error: 'Şifre hatalı'
+          reset_url: 'URL yenile'
+          subject_email: 'Hesabı sıfırla'
+          send_mail_succes: 'Sıfırlama işlemi başarıyla mail gönderildi.'
+          send_mail_error: 'Mail adresi bulunamadı.'
+          invalid_caption: 'Hatalı resim doğrulama'
+          email_not_validated: 'Mail onaylanmamış.'
+          confirm_email_token_incorrect: 'URL hatalı'
+          confirm_email_token_expired: 'URL süresi dolumunu mail ile onayla'
+          confirm_email_success: 'Mail başarıyla onaylandı!'
+        personal_info: 'Kişisel Bilgiler'
+        please_login: 'Lütfen giriş yapın'
+        reset_password: 'şifre sıfırla'
+        reCaptcha: 'Resim Doğrulama yenile'
+        send_email: 'Mail gönder'
+        reset_password_html: '<strong>Mail gönder</strong>, şifreyi sıfırla'
+        welcome: 'Merhaba'
+        welcome_login_html: '<strong>Hoş Geldiniz</strong>, lütfen giriş yapın'
+        do_not_have_account_yet: "Henüz bir hesabınız yok mu?"
+        msg_registration_html: '<strong>Kayıt</strong>, için aşağıdaki formu kullanın'
+        username: "Kullanıcı Adı"
+        password: "Şifre"
+        password_confirm: "Şifre onayı"
+        first_name: "İsim"
+        last_name: "Soyisim"
+        email: "Email"
+        remember_me: "Beni Hatırla"
+        confirm:
+          text: "Lütfen bu bağlantıya tıklayarak hesabınızı onaylayın"
+          subject: "Hesabınızı onaylayın"
+      logout:
+        log: 'Çıkış'
+        out: 'Yap'
+        logout: 'Çıkış Yap'
+        logout_html: 'Çıkış <strong>Yap</strong>?'
+        message:
+          closed: 'Oturum kapandı'
+      media:
+        media_manager: 'Medya Yöneticisi'
+        home: "Anasayfa"
+        info: "Bilgilendirme"
+        external: "URLden Yükle"
+        folder_name: 'Klasör Adı'
+        folder_file_name: 'Klasör veya Dosya Adı'
+        reload: 'Yenile'
+        clear_cache: 'Önbelleği Temizle'
+        name_required: 'Dosya adı gerekli'
+      menus:
+        link_url: 'Link URL'
+        target: 'Hedef'
+        targets:
+          blank: 'Blank'
+          parent: 'Parent'
+        message:
+          created: 'Navigasyon menüsü oluşturuldu.'
+          deleted: 'Navigasyon menüsü silindi.'
+          error_menu: 'Hatalı Menü'
+        name_link: 'Link Adı'
+        name_menu: 'Menü Adı'
+        external_link: 'Dış Bağlantı'
+        or: 'veya'
+        create_new: 'yeni menü oluştur'
+        select: 'Seçim Menüsü'
+        select_edit: 'Düzenlemek istediğiniz menüyü seçin:'
+      message:
+        are_you_sure_you_want_log_out_int: 'Are you sure you want to log out?' #TODO:
+        are_you_sure_to_import: "Are you sure you want to import?"
+        data_found_list: 'No data found in the list'
+        delete: 'Are you sure to delete this item?'
+        delete_item: 'Really want to delete this item?'
+        edit_menu: 'Place each item in the order you prefer. Click on the icon of a pencil to edit the item and click the icon in the form of x to delete the item.'
+        add_menus: 'Add menu items from the left column.'
+        press_no_continue_work_press_yes_logout: 'Press No if you want to continue work. Press Yes to logout current user.'
+        updated_success: 'Updated Successfully'
+        remove_items_submenu: 'Really remove this item and its sub menu items?'
+        you_must_upload_image: 'You must upload an image'
+        you_must_upload_video: 'You must upload an video'
+        so_their_data_has_not_been_saved: 'So their data has not been saved'
+        no_response_fields: 'No response fields '
+        quick_info: 'Some quick info about this user'
+        was_inactivated: 'was inactivated.'
+        was_activated: 'was activated.'
+        was_upgraded: 'was updated.'
+        can_not_be_removed: 'can not be removed.'
+        was_removed: 'was removed.'
+        processing: 'Procesando...'
+        change_photo: 'Use form below to upload file. Only image files.'
+        change_password: 'To change your password enter your old password first, then enter the new password and repeat the new password.'
+        you_must_upload_json_file: 'You must upload an json file'
+        import_process: 'Import in process'
+        unauthorized: "Access denied"
+        welcome: 'Welcome to the admin panel of your site.'
+        no_templates_defined: 'No templates defined'
+        avatar_updated: 'Updated Avatar'
+        form_error: 'Form Error'
+      page_title:
+        page_title: 'Sayfa Başlığı'
+        create: 'Oluştur'
+        details: 'Detaylar'
+        edit: 'Düzenle'
+        add: 'Ekle'
+        list: 'Liste'
+        list_of: '%{post_type} Listesi'
+        new_site: 'Yeni Site'
+        edit_site: 'Site Düzenle'
+        update: 'Güncelle'
+      post:
+        add_tag: 'Etiket Ekle'
+        clone: 'Kopyala'
+        clone_content: 'İçerik Koypala'
+        label_required: 'Başlık Gerekli'
+        placeholder_required: 'Placeholder gerekli'
+        message:
+          created: 'The %{post_type} has been created.' #TODO:
+          updated: 'The %{post_type} has been updated.'
+          deleted: 'The %{post_type} has been removed.'
+          error: 'Error %{post_type}'
+          error_post_type: 'Error %{post_type}'
+          trash: 'The %{post_type} was moved to the trash.'
+          requires_different_slug: 'Requires different slug'
+          restore: 'The %{post_type} was restored.'
+          draft: 'Saved draft success'
+          recover: 'Recover...'
+        permalink: 'Permalink'
+      post_type:
+        route_format: 'İçerik Rota Formatı'
+        icons_url_desc: 'Lütfen herhangi bir simge adı girin: '
+        all: 'Tüm Öğeler'
+        add: 'Ekle'
+        add_category: 'Kategori Ekle'
+        add_post_type: 'Gönderi tipi ekle'
+        add_new: 'Yeni Ekle'
+        add_post_tag: 'Gönderi Etiketi Ekle'
+        categories: 'Kategoriler'
+        category: 'Kategori'
+        configuration: 'Yapılandırma'
+        other_configuration: 'Özel Yapılandırmalar'
+        comments: 'Yorumlar'
+        draft: 'Taslak'
+        edit_post_type: 'Gönderi Tipini Düzenle'
+        edit_category: 'Kategori Düzenle'
+        enter_password: 'Şifre Gir'
+        featured_image: 'Öne Çıkan Resim'
+        keywords: 'Anahtar Kelimeler'
+        default_layout: 'Varsayılan Düzen'
+        default_template: 'Varsayılan Tema'
+        icon: 'İkon'
+        message:
+          error: 'Hata sınıfı'
+          error_term: 'Hata terimi sınıfı'
+          created: 'Kaydedildi'
+          updated: 'Güncellendi'
+          deleted: 'Silindi'
+          no_created_html: '<br> %{taxonomy} sınıflandırılması bulunamadı'
+        pending: 'Beklemede'
+        permit_comments: 'Yorumlara izin ver?'
+        post_types: 'Gönderi Tipleri'
+        posts: 'Gönderiler'
+        post_tags: 'Gönderi Etiketleri'
+        published: 'Yayınlandı'
+        published_date: 'Yayınlanma Tarihi'
+        save_draft: 'Taslağa Kaydet'
+        save_pending: 'Beklemeye Kaydet'
+        summary: 'Özet'
+        tags: 'Etiketler'
+        template: 'Şablon'
+        layout: 'Düzen'
+        trash: 'Çöp'
+        tooltip:
+          permission_asing_categories: 'Permit to manage your post contents by categories'
+          permission_add_tags: 'Enable the field to enter tags in post content'
+          permission_add_content: 'Enable the editor to enter the post content'
+          permission_add_content_summary: 'Enable the field to enter the post summary'
+          permission_reviews: 'Enable the option to indicate if post contents can be commented'
+          permission_add_image_presentation: 'Enable the editor to upload thumbnail in post contents'
+          permission_manage_template: 'Enable the field to select template in contents. (template: file that will be used to render a content)'
+          permission_manage_layout: 'Enable the field to select layout in contents. (Layout: File wrapper in which will be rendered the template)'
+          permission_add_keywords: 'Enable the field to enter the post keywords (SEO)'
+          default_layout: 'Select the default layout for all contents of this post type'
+          default_template: 'Select the default template for all contents of this post type'
+        upload_image: 'Upload Image'
+        view_comments: 'View Comments'
+      plugins:
+        active_plugins: 'Active Plugins'
+        disabled_plugins: 'Disabled Plugins'
+        all_plugins: 'All Plugins'
+        status_false: 'Inactive'
+        status_true: 'Active'
+        type_contents: 'Type Contents'
+        upgrade_to: "Upgrade to"
+      settings:
+        activate_create_account: 'Activate Create Account'
+        activate_login_social_networks: 'Activate Login Social Networks'
+        add_field_group: 'Add Field Group'
+        admin_language: 'Admin language'
+        allow_user_registration: 'Allow user registration?'
+        available_fields: 'Available fields'
+        available_languages: 'Available languages'
+        categories_in: 'Categories in'
+        configuration_site: 'Configuration Site'
+        current_languages: 'Current Languages'
+        details_custom_field_group: 'Details Custom Field Group'
+        details_site: 'Details Site'
+        edit_custom_field_group: 'Edit Custom Field Group'
+        field: 'Field'
+        fields: 'Fields'
+        information_basic: 'Basic Information'
+        theme_setting: "Theme settings"
+        input_only_date: 'Input only the date'
+        input_date_time: 'Input date and time'
+        languages_configuration: 'Languages configuration'
+        list_custom_fields_group: 'List  Custom Fields Group'
+        list_sites: 'List Sites'
+        login_twitter: 'Twitter'
+        login_facebook: 'Facebook'
+        login_google: 'Google+'
+        email_enabled: "Use these settings to send emails"
+        email_server: "Email Server"
+        email_port: "Email Port"
+        email_domain: "Email Domain"
+        email_username: "User Name"
+        email_pass: "User Password"
+        email_from: "Email From"
+        email_cc: "Email CC"
+        twitter_card: "Twitter Card"
+        author: "Author Name"
+        seo_setting: "Seo Settings"
+        email_settings: "Email Settings (SMTP)"
+        filesystem_type: "Filesystem type"
+        filesystem_s3_access_key: "AWS S3 Access Key"
+        filesystem_s3_secret_key: "AWS S3 Secret Key"
+        filesystem_s3_bucket_name: "AWS S3 Bucket name"
+        filesystem_s3_endpoint: "AWS S3 Bucket endpoint"
+        send_test_email: 'Send Test Email'
+        filesystem_region: "AWS S3 Region"
+        filesystem_cdn: "CDN url"
+        security:
+          captcha_user_register: "Enable captcha on user registration?"
+          need_validate_email: "Need validate email?"
+        message:
+          language_updated: 'Your languages was configured.'
+          site_updated: 'The site has been updated.'
+        new_custom_field_group: 'New Custom Field Group'
+        options_select: 'Options select'
+        option_title: 'Option Title'
+        others: 'Others'
+        please_separated_commas: 'Please separated by commas'
+        comment_status: 'Register comments as approved?'
+        list_per_page_front: 'Quantity of items to be listed on frontend'
+        list_per_page_admin: 'Quantity of items to be listed on backend'
+        permission_register_users: 'Permission to Register Users'
+        permission_login_twitter: 'Permission to Login with Twitter'
+        permission_login_facebook: 'Permission to Login with Facebook'
+        permission_login_google: 'Permission to Login with Google+'
+        posts_in: 'Posts in'
+        in_post_type_settings_of: 'In Post Type settings of'
+        settings: 'Settings'
+        tooltip:
+          add_custom_field_posts: 'Add Custom Field in Posts of '
+          add_custom_field_categories: 'Add Custom Field in Categories of '
+          add_custom_field_users: 'Add Custom Field in Users '
+          add_custom_field_sites: 'Add Custom Field in Site '
+          add_custom_field_themes: 'Add Custom Field in Theme '
+          add_custom_field_widget: 'Add Custom Field in Widget '
+        untitled: 'Untitled'
+        where_display_group: 'Where to display this group'
+      sidebar:
+        appearance: 'Görünüm'
+        comments: 'Yorumlar'
+        content: 'İçerik'
+        contents: 'İçerikler'
+        content_groups: 'İçerik Grupları'
+        custom_fields: 'Özel Alanlar'
+        dashboard: 'Yönetim Paneli'
+        general_site: 'Genel Site'
+        information: 'Bilgilendirme'
+        languages: 'Diller'
+        shortcodes: "Kısakodlar"
+        media: 'Medya'
+        menus: 'Menüler'
+        navigation: 'Navigasyon'
+        plugins: 'Eklentiler'
+        post_type: 'Gönderi Tipi'
+        settings: 'Ayarlar'
+        site_settings: 'Site ayarları'
+        sites: 'Siteler'
+        themes: 'Temalar'
+        users: 'Kullanıcılar'
+        widget: 'Eklenti'
+        widgets: 'Eklentiler'
+        main_navigation: "ANA NAVİGASYON"
+      sidebar_top:
+        admin_panel: 'Admin. Panel'
+        visit: 'Ziyaret Et'
+      sites:
+        add_site: 'Add Site'
+        message:
+          error: 'Not found site'
+          created: 'The site has been created.'
+          updated: 'The site has been updated.'
+          deleted: 'Correct Deleted'
+          enter_key_domain: 'Enter a key or a domain'
+          enter_key_domain_empty: 'Enter a key (site2) or a domain (my_domain.com). Key will be the name of your subdomain.'
+      signin:
+        message:
+          enter_username_password: 'You must enter a username and/or password'
+          combination_username_password_invalid: 'Combination of username/password invalid.'
+          success_user: 'Success User'
+      table:
+        actions: 'İşlemler'
+        attribute: 'Özellikler'
+        author: 'Yazar'
+        basic: 'Temel'
+        categories: 'Kategoriler'
+        updated_at: "Güncellenme Tarihi"
+        comments: 'Yorumlar'
+        count: 'Sayı'
+        date_published: 'Yayınlanma Tarihi'
+        default: 'Varsayılan'
+        default_thumbnail: 'Varsayılan Önizleme Resmi'
+        default_value: 'Varsayılan Değer'
+        description: 'Açıklama'
+        dimensions: 'Boyutlar'
+        display_objects: 'Görüntülenen Objeler'
+        draft: 'Taslak'
+        email: 'Email'
+        e_mail: 'E-mail'
+        email_address: 'Email Adresi'
+        error: 'Hata'
+        errors: 'Hatalar'
+        excerpt: 'Alıntı'
+        facebook: 'Facebook'
+        favicon: 'Favicon'
+        screenshot: "Ekran Görüntüsü"
+        first_names: 'İsim'
+        group_name: 'Grup Adı'
+        google_plus: 'Google plus'
+        hide: 'Gizle'
+        home_page: 'Anasayfa'
+        id: 'ID'
+        images: 'Resimler'
+        import: 'İçe Aktar'
+        instagram: 'Instagram'
+        keywords: 'Anahtar Kelimeler (virgül ile giriniz)'
+        kind: 'Çeşit'
+        last_login: 'Son Giriş'
+        last_names: 'Soy isim'
+        last_visit: 'Son Ziyaret'
+        link: 'Link'
+        linkedin: 'Linkedin'
+        login: 'Giriş'
+        logo: 'Logo'
+        manage_category: 'Birden fazla kategori yönet'
+        manage_content: 'İçerik Yönet'
+        manage_picture: 'Resim Yönet'
+        manage_seo: 'Seo Yönet'
+        manage_summary: 'Özet Yönet'
+        manage_tags: 'Etiketleri Yönet'
+        manage_template: 'Şablon Yönet'
+        manage_layout: 'Düzen Yönet'
+        modified: 'Düzenlendi'
+        multiple_field_int: 'Çoklu alan?'
+        required_field_int: 'Zorunlu alan?'
+        translate_field_int: 'Çevrilmiş alan?'
+        show_in_frontend: 'Ön Sayfada göster (Sadece gönderi içerikleri)'
+        name: 'İsim'
+        new_password: 'Yeni Şifre'
+        no_default: 'Varsayılan yok'
+        old_password: 'Eski Şifre'
+        options: 'Özellikler'
+        settings: 'Ayarlar'
+        options_field: 'Özellik Alanları'
+        parent: 'Ana'
+        password: 'Şifre'
+        password_confirmation: 'Şifre doğrulama'
+        password_protection: 'Şifre koruma'
+        permit_comments_default: 'Yorumlara izin ver (varsayılan)'
+        post: 'Gönderi'
+        post_type: 'Gönderi Tipi'
+        pending: 'Beklemede'
+        private: 'Özel'
+        public: 'Halka Açık'
+        qty: 'Miktar'
+        quick_info: 'Hızlı Bilgi'
+        registration: 'Kayıt'
+        repeat_new: 'Tekrar Yeni'
+        role: 'Rol'
+        slogan: 'Slogan'
+        slug: 'Kısa Url'
+        short_code: 'Kısa Kod'
+        site_name: 'Site İsmi'
+        size: 'Boyut'
+        social: 'Sosyal'
+        skype: 'Skype'
+        status: 'Durum'
+        owner: 'Sayfa Sahibi'
+        tags: 'Etiketler'
+        text: 'Yazı'
+        title: 'Başlık'
+        total: 'Toplam'
+        trash: 'Çöp'
+        twitter: 'Twitter'
+        username: 'Kullanıcı Adı'
+        value: 'Değer'
+        version: 'Versiyon'
+        visibility: 'Görünürlük'
+        page_404: '404 Sayfası'
+        youtube: 'Youtube'
+        more_actions: 'Diğer İşlemler'
+        more_actions_info: 'Diğer işlemler...'
+        shorcodes: "Kısakodlar"
+      themes:
+        footer_copyright: 'Footer Copyright'
+        theme_select: 'Select Theme'
+        title: 'Theme %{theme} Settings '
+        analytics_code: 'Analytics Code'
+        social_share: 'Social share'
+
+        message:
+          updated: 'Theme updated'
+      users:
+        impersonate: 'Impersonate'
+        all_users: 'All Users'
+        add_user: 'Add User'
+        add_user_role: 'Add User Role'
+        avatar: 'Avatar'
+        create_user: 'Create User'
+        edit_profile: 'Edit Profile'
+        list_users: 'List Users'
+        list_user_roles: 'User Roles'
+        message:
+         error: 'Not found user.'
+         error_captcha: 'Oh! Its error with CAPTCHA!'
+         created: 'The user has been created.'
+         updated: 'The user has been updated.'
+         deleted: 'The user has been deleted.'
+         incorrect_old_password: 'Incorrect old password'
+         rol_error: 'Not found group user.'
+         rol_created: 'The user role has been created.'
+         rol_updated: 'The user role has been updated.'
+         rol_deleted: 'The user role has been deleted.'
+         requires_different_name: 'Requires different name'
+         requires_different_username: 'Requires different username'
+         requires_different_email: 'Requires different email'
+         created_pending_validate_email: "The user has been created, please confirm your email"
+        new_photo: 'New Photo'
+        others_permissions: 'Others permissions'
+        profile: 'Profile'
+        slogan: 'Slogan'
+        type_contents: 'Type of Contents'
+        user_roles: 'User Roles'
+        roles_values:
+          comments: 'Comments'
+          forms: 'Forms'
+          media: 'Media'
+          publish: 'Publish'
+          themes: 'Themes'
+          html_create_or_edit: 'Create<br>or  Edit'
+          html_edit_other: 'Edit <br> Other'
+          html_edit_publish: 'Edit <br> Publish'
+          html_delete_other: 'Delete <br> Other'
+          html_delete_publish: 'Delete <br> Publish'
+          html_read_private: 'Read <br> Private'
+          html_manage_categories: 'Manage <br> Categories'
+          html_manage_tags: 'Manage <br> Tags'
+        tool_tip:
+          comments: 'Allowing the comments section'
+          delete: 'You need permission to Create or Edit to delete posts of your property. '
+          forms: 'Allowing Forms section'
+          media: 'Permission to the midsection'
+          publish: 'You need permits Create or Edit, Edit Other, Edit, Publish, to enable this permission'
+          themes: 'Themes permission to section'
+          widgets: 'Widgets permission to section'
+          menus: 'Permission to the Menu section'
+          plugins: 'Permission to the Plugins section'
+          users: 'Permission to create, edit, delete Users'
+          settings: 'Permission to section Settings'
+          create_or_edit: 'It lets you create and edit your posts (the post is not published)'
+          edit_other: 'It allows you to edit the post of other users (the post is not published)'
+          edit_publish: 'It allows you to edit the post published'
+          delete_other: 'You need permission to remove edit other posts by other users'
+          delete_publish: 'You need permits Delete, Delete Other, to enable this permission'
+          read_private: 'Allows you to view private posts'
+          manage_categories: 'Permission to create, edit and delete categories'
+          manage_tags: 'Permission to create, edit and delete post tags'
+      validate:
+        required: 'This field is required.'
+        remote: 'Please fix this field.'
+        email: 'Please enter a valid email address.'
+        url: 'Please enter a valid URL.'
+        date: 'Please enter a valid date.'
+        dateiso: 'Please enter a valid date ( ISO ).'
+        number: 'Please enter a valid number.'
+        digits: 'Please enter only digits.'
+        creditcard: 'Please enter a valid credit card number.'
+        equalto: 'Please enter the same value again.'
+        maxlength: 'Please enter no more than {0} characters.'
+        minlength: 'Please enter at least {0} characters.'
+        rangelength: 'Please enter a value between {0} and {1} characters long.'
+        range: 'Please enter a value between {0} and {1}.'
+        max: 'Please enter a value less than or equal to {0}.'
+        min: 'Please enter a value greater than or equal to {0}.'
+      widgets:
+        create_widget: 'Create Widget'
+        create_sidebar: 'Create Sidebar'
+        complex_widgets: 'Complex Widgets'
+        simple_widgets: 'Simple Widgets'
+        message:
+          created: 'The widget has been created.'
+          updated: 'The widget has been updated.'
+          deleted: 'The widget has been delete.'
+          error_created: 'Not Created Widget.'
+          error_updated: 'Not Updated Widget.'
+          not_registered_widgets: 'There are no registered widgets'
+        assign:
+          updated: "Widget assign updated"
+          error_updated: "Widget assign not updated"
+        sidebar:
+          created: "Sidebar Create."
+          updated: "Sidebar Update."
+          error_created: "No created sidebar."
+          error_updated: "No Update sidebar."
+          error_deleted: "Sidebar deleted."
+      intro:
+        profile: "In this place you can see your profile options."
+        content: "This block contains all content groups of your site. Each content can have different structure configured in settings => Content Groups"
+        dashboard: "In this section you can see "
+        media: "This section manages all your public media files."
+        comments: "This section manages all the comments of your contents."
+        appearance: "Manage all the information related to Public Interface."
+        themes: "In this section you can choose your preferred theme (Public Interface)."
+        widgets: "This module permits you to manage your widgets and paste the code in any content."
+        menus: "<img style=\"max-width: 100%;\" src=\"%{image}\" /> This module permits you to control your menus for Public Interface in multiple levels."
+        plugins: "In this section you can see all plugins (custom applications to extend your site functionality)."
+        users: "Permits you to manage all users of the site. Also you can manage the roles for the users."
+        settings: "In this section you can find all site configurations."
+        gral_site: "This is a section where you can configure all settings of the site and current theme"
+        sites: "This module permits you to manage your sub sites, i.e. you can create unlimited sites like this (This is visible only for main site). Check /config/system.json to customize settings."
+        custom_fields: "This section permits you to extend easily your contents, themes,... by custom fields."
+        post_type: "In this module you can manage your content groups without programing anything."
+        languages: "This module permits you to manage all languages for your site. Also you can configure the language for your admin panel."
+        shortcodes: "In this section you can see all available shortcodes to use in your contents."
