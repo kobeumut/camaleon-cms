@@ -67,6 +67,72 @@ tr:
     previous_label: 'Önceki'
     next_label: 'Sonraki'
 
+ar:
+  camaleon_cms:
+    common:
+      profile: "بروفيل"
+      dashboard: "لوحة الإدارة"
+      read_more: "متابعة"
+      submit: "إرسال"
+      send: "إرسال"
+      login: "تسجيل الدخول"
+      logout: "تسجيل الخروج"
+      confirm: "هل أنت متأكد؟"
+      register: "ريجيستر"
+      proceted_article: 'المادة المحمية'
+
+      comment_msg: "تسجيل الدخول مطلوب للتعليق"
+      comment: "تعليق"
+      comments: "تعليقات"
+      message: "رسالة"
+      leave_comment: "ترك تعليق"
+      comment_new: "تعليق جديد"
+      comment_saved: "تم حفظ تعليقك"
+      comment_error: "حدثت مشكلة أثناء حفظ التعليق"
+      comment_reply: "الرد"
+      edit: "تحرير"
+
+      recent_posts: "تمت إضافته مؤخرا"
+
+
+      search_msg: "نتائج البحث:"
+      search_not_found: "لا توجد كلمات في القائمة"
+      category_list: "قائمة الفئات"
+      post_tag_list: "قائمة التصنيفات"
+      sub_category_list: "الفئات الفرعية"
+      content_list: "كونتنت ليست: %s"
+      visit: "زيارة"
+      no_contents_found: "لم يتم العثور على المحتوى"
+      no_results_found: "لم يتم العثور على نتائج"
+
+      author: "المؤلف"
+      site: "سيت"
+      categories: "فئات"
+      next: "التالي"
+      prev: "السابق"
+      current: "الحالية"
+      search: "سيرتش"
+      file_format_error: "تنسيق الملف غير مسموح به"
+      file_size_exceeded: "حجم الملف كبير جدا"
+
+      notice: "أخبار "
+      share: "شير"
+      share_facebook: "شارك في الفيسبوك"
+      share_twitter: "شارك على تويتر"
+      share_google_plus: "المشاركة في غوغل بلوس"
+      back_top: "صعودا"
+      total_followers_social: "عدد المتابعين على الشبكة الاجتماعية"
+      latest_articles: "الإضافات الحديثة"
+      photo_gallery: "معرض الصور"
+      home_galleries: "العودة إلى صفحة المعرض"
+      addition: "المرفقات"
+      view_all_news: "إظهار كل الأخبار"
+      extra_attributes: "ميزات إضافية"
+
+  will_paginate:
+    previous_label: 'السابق'
+    next_label: 'التالي'
+
 de:
   camaleon_cms:
     common:

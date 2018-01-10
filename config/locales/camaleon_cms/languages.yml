@@ -2,6 +2,7 @@
 tr:
   languages:
     tr: "Türkçe"
+    ar: "Arapça"
     es: "İspanyolca"
     en: "İngilizce"
     fr: "Fransızca"
@@ -16,6 +17,7 @@ tr:
 de:
   languages:
     tr: "Turkish"
+    ar: "Arabisch"
     es: "Spanisch"
     en: "Englisch"
     fr: "Französisch"
@@ -31,6 +33,7 @@ de:
 en:
   languages:
     tr: "Turkish"
+    ar: "Arabic"
     es: "Spanish"
     en: "English"
     fr: "French"
@@ -46,6 +49,7 @@ en:
 es:
   languages:
     tr: "Turkish"
+    ar: "Arabic"
     es: "Español"
     en: "Inglés"
     fr: "Francés"
@@ -61,6 +65,7 @@ es:
 it:
   languages:
     tr: "Turkish"
+    ar: "Arabic"
     es: "Spagnolo"
     en: "Inglese"
     fr: "Francese"
@@ -90,6 +95,7 @@ uk:
 ru:
   languages:
     tr: "Turkish"
+    ar: "Arabic"    
     es: "Испанский"
     en: "Английский"
     fr: "Французский"
@@ -105,6 +111,7 @@ ru:
 nl:
   languages:
     tr: "Turkish"
+    ar: "Arabic"    
     es: "Spaans"
     en: "Engels"
     fr: "Frans"
@@ -120,6 +127,7 @@ nl:
 pt:
   languages:
     tr: "Turkish"
+    ar: "Arabic"    
     es: "Espanhol"
     en: "Inglês"
     fr: "Francês"
@@ -135,6 +143,7 @@ pt:
 pt-BR:
   languages:
     tr: "Turkish"
+    ar: "Arabic"  
     es: "Espanhol"
     en: "Inglês"
     fr: "Francês"
@@ -150,6 +159,7 @@ pt-BR:
 zh-CN:
   languages:
     tr: "Turkish"
+    ar: "Arabic"    
     es: "西班牙语"
     en: "英语"
     fr: "法语"

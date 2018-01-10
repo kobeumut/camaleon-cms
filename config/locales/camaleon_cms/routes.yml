@@ -6,6 +6,14 @@ de:
     search: Suche
     profile: Profil
 
+ar:
+  routes:
+    group: مجموعة
+    category: فئة
+    tag: بطاقة
+    search: بحث
+    profile: البيانات الشخصية
+
 tr:
   routes:
     group: Grup
